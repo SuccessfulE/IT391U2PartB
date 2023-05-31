@@ -85,6 +85,11 @@ namespace IT391U2B
 
             //Displaying new size of queue line
             Console.WriteLine("The number of customers in line now is, " + customers.Count);
+            Console.WriteLine("The names of those in line at the bank are ");
+
+            //Created loop for customer names to display
+            foreach (string Customername in customers)
+                Console.WriteLine(Customername);
         }
     }
 }
